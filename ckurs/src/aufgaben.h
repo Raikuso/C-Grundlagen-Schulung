@@ -21,6 +21,10 @@ double arrayavg(double arr[], unsigned int d);
 
 bool searchvalue(int arr[], unsigned int d, int nmbr);
 
+void ausgabearray(const char*);
+unsigned int lenString(const char*);
+void copyString(char*, char*);
+
 
 
 #endif /* AUFGABEN_H_ */

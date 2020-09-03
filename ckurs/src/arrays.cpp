@@ -12,7 +12,7 @@ using namespace std;
 const unsigned int DIM = 10;
 
 
-int main(){
+int main1341(){
 	int arr[DIM] = {10, 20, 30, 40, 50, 4, 6, 1, 23 };
 	unsigned int i = 0;
 	int sum;

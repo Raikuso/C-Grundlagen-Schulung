@@ -59,3 +59,26 @@ bool searchvalue(int arr[], unsigned int d, int nmbr){
 	return x;
 }
 
+void ausgabearray(const char* s){
+	while(*s)
+		cout << *s++ << " ";
+	cout << endl;
+}
+
+unsigned int lenString(const char* s){
+	const char* start = s;
+	while(*s++);
+	return s - start - 1;
+
+//	unsigned int len = 0;
+//	while(*s++) ++len;
+//	return len+1;
+}
+
+void copyString(char* to, char* from){
+	while(*to++=*from++)
+		;
+}
+
+
+
